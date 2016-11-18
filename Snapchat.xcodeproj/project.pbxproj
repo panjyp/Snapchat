@@ -14,6 +14,8 @@
 		3EA00E0D1DDA3F3200CE691A /* PictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA00E0C1DDA3F3200CE691A /* PictureViewController.swift */; };
 		3EA00E0F1DDBC54600CE691A /* SelectUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA00E0E1DDBC54600CE691A /* SelectUserViewController.swift */; };
 		3EA00E111DDE4AD800CE691A /* user.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA00E101DDE4AD800CE691A /* user.swift */; };
+		3EA00E151DDFA08800CE691A /* snap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA00E141DDFA08800CE691A /* snap.swift */; };
+		3EA00E171DDFA6F800CE691A /* ViewSnapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA00E161DDFA6F800CE691A /* ViewSnapViewController.swift */; };
 		3EDDE45C1DD28C6500BDF047 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDDE45B1DD28C6500BDF047 /* AppDelegate.swift */; };
 		3EDDE4611DD28C6500BDF047 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EDDE45F1DD28C6500BDF047 /* Main.storyboard */; };
 		3EDDE4631DD28C6500BDF047 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EDDE4621DD28C6500BDF047 /* Assets.xcassets */; };
@@ -28,6 +30,8 @@
 		3EA00E0C1DDA3F3200CE691A /* PictureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureViewController.swift; sourceTree = "<group>"; };
 		3EA00E0E1DDBC54600CE691A /* SelectUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectUserViewController.swift; sourceTree = "<group>"; };
 		3EA00E101DDE4AD800CE691A /* user.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = user.swift; sourceTree = "<group>"; };
+		3EA00E141DDFA08800CE691A /* snap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = snap.swift; sourceTree = "<group>"; };
+		3EA00E161DDFA6F800CE691A /* ViewSnapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewSnapViewController.swift; sourceTree = "<group>"; };
 		3EDDE4581DD28C6500BDF047 /* Snapchat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snapchat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EDDE45B1DD28C6500BDF047 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3EDDE4601DD28C6500BDF047 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -58,6 +62,7 @@
 				3EA00E0A1DDA3D5000CE691A /* SnapsViewController.swift */,
 				3EA00E0E1DDBC54600CE691A /* SelectUserViewController.swift */,
 				3EA00E0C1DDA3F3200CE691A /* PictureViewController.swift */,
+				3EA00E161DDFA6F800CE691A /* ViewSnapViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -65,6 +70,7 @@
 		3EA00E131DDE4B4900CE691A /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				3EA00E141DDFA08800CE691A /* snap.swift */,
 				3EA00E101DDE4AD800CE691A /* user.swift */,
 			);
 			name = Models;
@@ -251,8 +257,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EA00E151DDFA08800CE691A /* snap.swift in Sources */,
 				3EA00E081DDA375D00CE691A /* SigninViewController.swift in Sources */,
 				3EA00E0D1DDA3F3200CE691A /* PictureViewController.swift in Sources */,
+				3EA00E171DDFA6F800CE691A /* ViewSnapViewController.swift in Sources */,
 				3EA00E111DDE4AD800CE691A /* user.swift in Sources */,
 				3EA00E0F1DDBC54600CE691A /* SelectUserViewController.swift in Sources */,
 				3EDDE45C1DD28C6500BDF047 /* AppDelegate.swift in Sources */,
